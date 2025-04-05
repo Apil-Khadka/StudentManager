@@ -26,7 +26,6 @@ jobs:
 
       - name: Install Maven
         run: |
-            sudo apt-get update
             sudo apt-get install -y docker docker-compose
       # Build the project (using Maven; adjust if you use Gradle)
       - name: Build with Maven
