@@ -17,7 +17,7 @@ public class DemoApplication {
 
     @GetMapping("/")
     public String home(){
-        return "<Strong>Its a API!</Strong>, Please check at /api/v1/student";
+        return "<Strong>Its a API!</Strong>,<h2> Please check at /api/v1/student</h2>";
     }
 
 }
